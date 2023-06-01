@@ -3958,3 +3958,15 @@ input, select, textarea {
 	max-width:50%;
     height:auto;
 }
+
+.nbaimg {
+	width: 576px;
+	height: 515px;
+}
+
+@media screen and (max-width: 768px) {
+    .spotlights > section > .nbaimg {
+      width: 100%;
+      height: auto;
+    }
+  }
